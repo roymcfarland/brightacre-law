@@ -1,3 +1,9 @@
 var brightacre = angular.module("brightacre", [
-	"ngRoute"
+	"ngRoute",
+	"ngAnimate",
+	"ngAria",
+	"ngResource",
+	"ui.bootstrap",
+	"appRouter",
+	"homeCtrl"
 ]);
