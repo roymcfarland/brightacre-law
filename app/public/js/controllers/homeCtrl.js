@@ -4,6 +4,6 @@ homeCtrl.controller("homeController", function() {
 
 	var vm = this;
 
-	vm.testMessage = "Welcome, you've arrived.";
+	vm.testMessage = "The Dude Abides";
 
 });
