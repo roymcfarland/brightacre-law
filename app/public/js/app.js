@@ -5,5 +5,6 @@ var brightacre = angular.module("brightacre", [
 	"ngResource",
 	"ui.bootstrap",
 	"appRouter",
-	"homeCtrl"
+	"homeCtrl",
+	"loginCtrl"
 ]);

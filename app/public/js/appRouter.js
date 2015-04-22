@@ -10,6 +10,13 @@ appRouter.config(function ($routeProvider, $locationProvider) {
 			controllerAs: "homeCtrl"
 		})
 
+		// route for login
+		.when("/login", {
+			templateUrl: "../views/login.html",
+			controller: "loginController",
+			controllerAs: "loginCtrl"
+		})
+
 		// catch all route
 		.otherwise({
 			redirectTo: "/"
